@@ -1,3 +1,7 @@
+:root {
+    --cores: steelblue;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +30,7 @@ main{
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--cores);
     padding: 2px;
     box-shadow: 0 0 10px gray;
 }
@@ -42,7 +46,7 @@ footer{
 }
 
 nav{
-    background-color: steelblue;
+    background-color: var(--cores);
     padding: 1px;
 }
 
@@ -53,5 +57,5 @@ nav a{
 }
 
 h1{
-    color: steelblue;
+    color: var(--cores);
 }
