@@ -10,12 +10,9 @@
 
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /*  1  */
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -23,19 +20,27 @@ aside img{
     height: auto;
 }
 
-main{
+aside h2 {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+main {
     max-width: none;
 }
 
-main img{
+main img {
+    margin-left: 20px;
     width: 150px;
     height: auto;
     border: 1px solid var(--cores);
     padding: 2px;
     box-shadow: 0 0 10px gray;
+    float: right;
 }
 
-p{
+p {
     padding: 0;
 }
 
@@ -45,17 +50,31 @@ footer{
     text-align: center;
 }
 
-nav{
+nav {
     background-color: var(--cores);
     padding: 1px;
 }
 
-nav a{
+nav a {
     color: white;
     padding: 10px;
     display: block;
 }
 
-h1{
+h1 {
     color: var(--cores);
+}
+
+/* Seletores de Classe */
+
+.caixa {
+    margin: 1em;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1em;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
