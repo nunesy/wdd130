@@ -31,8 +31,8 @@ h1, h2 {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;    
     align-items: center;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
@@ -41,6 +41,10 @@ header {
 .caixa-logo img {
     height: 150px;
     display: block;
+}
+
+header nav {
+    justify-self: end;
 }
 
 .menu {
