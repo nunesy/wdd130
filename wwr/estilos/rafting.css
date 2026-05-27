@@ -44,12 +44,15 @@ header {
 }
 
 header nav {
-    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu a {
