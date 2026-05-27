@@ -95,7 +95,7 @@ header {
     left: 5%;
 
     width: 90%;
-    background-color: rgba(233, 196, 106, 0.95);
+    background-color: var(--cor-destaque2);
     padding: 20px;
 
     display: flex;
