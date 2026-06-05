@@ -1,0 +1,72 @@
+form {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 0rem;
+    display: flex;
+    align-content: center;
+}
+
+label {
+    cursor: default;
+}
+
+button {
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em 0em 0em 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+input, textarea, select, button {
+    width: 90%;
+    padding: 0.75em;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding-block: 1px;
+    padding-inline: 2px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    border: initial;
+    margin: 3px 3px 3px 4px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5em;
+}
