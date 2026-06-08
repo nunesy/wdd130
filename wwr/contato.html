@@ -33,7 +33,7 @@
 
             <section class="contato-esquerda">
                 <div class="empresa-info">
-                    <h2>Companhia de Rafting em Corredeiras</h2>
+                    <h1>Corredeiras</h1>
                     <p class="endereco">123 Rua Principal do Rio<br>Foz do Iguaçu, Paraná</p>
                     <p><strong>Telefone:</strong> +55 45 99999-9999</p>
                     <p><strong>E-mail:</strong> info@corredeiras.com</p>
@@ -42,11 +42,11 @@
                 <div class="mapa-box">
                     <iframe class="mapa-google"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.632296464876!2d-54.5772!3d-25.5411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCszMyJzI4LjAiUyA1NLCwMzQnMzcuOSJX!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr"
-                        width="100%" height="250" allowfullscreen="" loading="lazy"></iframe>
+                        height="250" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </section>
 
-            <section class="contato-direita">
+            <div class="contato-direita">
                 <form action="#" method="POST" class="form-contato">
                     <div class="form-grupo">
                         <label for="nome">Nome</label>
@@ -61,9 +61,17 @@
                     <div class="form-grupo">
                         <span class="label-fake">Propósito da Mensagem</span>
                         <div class="radio-opcoes">
-                            <label><input type="radio" name="proposito" value="geral" checked> Dúvida Geral</label>
-                            <label><input type="radio" name="proposito" value="reserva"> Pergunta sobre Reserva</label>
-                            <label><input type="radio" name="proposito" value="sugestao"> Sugestão</label>
+                            <label for="proposito-geral">
+                                <input type="radio" id="proposito-geral" name="proposito" value="geral" checked> Dúvida
+                                Geral
+                            </label>
+                            <label for="proposito-reserva">
+                                <input type="radio" id="proposito-reserva" name="proposito" value="reserva"> Pergunta
+                                sobre Reserva
+                            </label>
+                            <label for="proposito-sugestao">
+                                <input type="radio" id="proposito-sugestao" name="proposito" value="sugestao"> Sugestão
+                            </label>
                         </div>
                     </div>
 
@@ -73,15 +81,13 @@
                     </div>
 
                     <div class="checkbox-opcao">
-                        <label>
-                            <input type="checkbox" name="newsletter" value="sim"> Por favor, me inscreva na newsletter
-                            mensal
-                        </label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="sim">
+                        <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
                     </div>
 
                     <button type="submit" class="btn-enviar">Entrar em Contato</button>
                 </form>
-            </section>
+            </div>
         </div>
 
         <section class="sessao-equipe">
