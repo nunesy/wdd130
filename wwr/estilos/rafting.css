@@ -215,19 +215,19 @@ footer p {
     text-align: center;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     gap: 15px;
     grid-column: 3;
     justify-self: end;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 30px;
     height: 30px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
