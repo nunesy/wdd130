@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial | Corredeiras</title>
+    <meta name="description"
+        content="Viva uma aventura inesquecível de rafting com a Corredeiras! Segurança, guias experientes e muita adrenalina esperam por você.">
+    <meta name="author" content="Yuri Barboza Nunes">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa-logo">
+            <img src="imagens/logo.png" alt="Logo de rafting">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="menu-ativo">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="imagens/rafting4.jpg" alt="Grupo praticando rafting em uma corredeira forte">
+            <h1>Viva Uma Aventura</h1>
+            <article>
+                <p>Crie memórias inesquecíveis com a Corredeiras. Sinta o poder da água e desafie seus limites com total
+                    segurança.</p>
+                <a href="passeios.html" class="btn-chamada-hero"
+                    style="background-color: var(--cor-destaque1); color: white; padding: 10px 15px; text-decoration: none; font-weight: bold; border: 1px solid #000; text-transform: uppercase;">Reserve
+                    Agora</a>
+            </article>
+        </div>
+
+        <section class="sesao-historia">
+            <h2>Nossas Ofertas</h2>
+            <div class="historia-grid-container">
+                <div class="card-oferta" style="text-align: center;">
+                    <img src="imagens/rafting1.jpg" alt="Rio sinuoso"
+                        style="width: 150px; height: 150px; object-fit: cover; border: 2px solid #000; border-radius: 4px;">
+                    <h3 style="font-family: var(--fonte-titulo); margin-top: 10px;">Rios</h3>
+                </div>
+
+                <div class="card-oferta" style="text-align: center;">
+                    <img src="imagens/rafting2.jpg" alt="Barraca de acampamento nas montanhas"
+                        style="width: 150px; height: 150px; object-fit: cover; border: 2px solid #000; border-radius: 4px;">
+                    <h3 style="font-family: var(--fonte-titulo); margin-top: 10px;">Acampamento</h3>
+                </div>
+
+                <div class="card-oferta" style="text-align: center;">
+                    <img src="imagens/rafting3.jpg" alt="Bote de rafting descendo corredeira"
+                        style="width: 150px; height: 150px; object-fit: cover; border: 2px solid #000; border-radius: 4px;">
+                    <h3 style="font-family: var(--fonte-titulo); margin-top: 10px;">Corredeiras</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato-container"
+            style="align-items: center; background-color: #f0eae1; padding: 20px; border: 1px solid #ccc; margin-bottom: 40px;">
+            <div class="bloco-imagem-destaque">
+                <img src="imagens/figura3.jpg" alt="Belas montanhas e rio ao entardecer"
+                    style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+            </div>
+            <div class="bloco-texto-destaque"
+                style="background-color: var(--cor-destaque1); color: white; padding: 25px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+                <h3
+                    style="font-family: var(--fonte-titulo); color: var(--cor-destaque2); margin-bottom: 15px; font-size: 1.5rem;">
+                    Mais do que Apenas Emoção</h3>
+                <p style="line-height: 1.6; margin-bottom: 20px; text-align: justify;">Aproveite a paisagem de tirar o
+                    fôlego. De vales profundos a picos altos, é muito mais do que apenas as corredeiras. É uma ótima
+                    maneira de fugir de tudo e relaxar em meio a toda a beleza da natureza.</p>
+                <a href="sobre.html"
+                    style="display: inline-block; background-color: var(--cor-secundaria); color: #fff; padding: 10px 20px; text-decoration: none; font-weight: bold; text-transform: uppercase; border: 1px solid #000;">Junte-se
+                    a Nós</a>
+            </div>
+        </section>
+
+        <section class="form-contato" style="margin-bottom: 40px; border-radius: 4px;">
+            <h2 style="margin-bottom: 15px;">Fique por Dentro da Aventura!</h2>
+            <p style="text-align: center; margin-bottom: 20px; color: var(--cor-destaque1);">Assine nossa newsletter
+                para receber roteiros exclusivos, descontos e dicas de rafting diretamente no seu e-mail.</p>
+
+            <form action="#" method="POST"
+                style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 15px; align-items: end;">
+                <div class="form-grupo" style="margin-bottom: 0;">
+                    <label for="nome-news">Nome</label>
+                    <input type="text" id="nome-news" name="nome_news" required placeholder="Seu nome completo">
+                </div>
+                <div class="form-grupo" style="margin-bottom: 0;">
+                    <label for="email-news">E-mail</label>
+                    <input type="email" id="email-news" name="email_news" required placeholder="Seu melhor e-mail">
+                </div>
+                <button type="submit" class="btn-enviar"
+                    style="padding: 10px 20px; height: 40px; display: flex; align-items: center; justify-content: center;">Inscrever</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Corredeiras | Yuri Barboza Nunes</p>
+        <nav class="redes-sociais">
+            <a href=""><img src="imagens/facebook.svg" alt="facebook"></a>
+            <a href=""><img src="imagens/instagram.svg" alt="instagram"></a>
+            <a href=""><img src="imagens/linkedin.svg" alt="linkedin"></a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

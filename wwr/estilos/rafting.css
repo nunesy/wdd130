@@ -419,3 +419,156 @@ footer p {
     background-color: var(--cor-primaria);
     color: #fff;
 }
+
+/* ==========================================================================
+   Adições para a Página Passeios (passeios.html)
+   ========================================================================== */
+
+.titulo-pagina {
+    margin: 30px 0 10px 0;
+}
+
+.subtitulo-pagina {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--cor-destaque1);
+    margin-bottom: 40px;
+}
+
+/* Container dos Detalhes dos Passeios utilizando Grid de 2 Colunas */
+.vitrine-passeios {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.card-passeio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Inverte a ordem visual (Grid) no segundo card para dinamismo na leitura */
+.card-passeio.invertido .conteudo-passeio {
+    grid-column: 2;
+}
+
+.card-passeio.invertido .imagem-passeio {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.imagem-passeio img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.conteudo-passeio h3 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.conteudo-passeio p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.tags-passeio {
+    display: flex;
+    gap: 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: var(--cor-destaque1);
+}
+
+.tag {
+    background-color: var(--cor-destaque2);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Estilização Semântica da Tabela Informativa */
+.secao-tabela {
+    margin: 50px 0;
+}
+
+.secao-tabela h2 {
+    margin-bottom: 20px;
+}
+
+.tabela-passeios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.tabela-passeios th, 
+.tabela-passeios td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.tabela-passeios th {
+    background-color: var(--cor-destaque1);
+    color: #fff;
+    font-family: var(--fonte-titulo);
+    font-size: 1.1rem;
+}
+
+.tabela-passeios tr:nth-child(even) {
+    background-color: #ededed;
+}
+
+/* Seção Call to Action (Chamada para Ação) */
+.cta-contato {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+    margin: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-contato h2 {
+    color: var(--cor-destaque2);
+    margin-bottom: 15px;
+}
+
+.cta-contato p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.btn-cta {
+    display: inline-block;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: var(--cor-destaque2);
+    color: var(--cor-destaque1);
+}
