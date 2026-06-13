@@ -232,6 +232,20 @@ footer p {
 }
 
 /* ==========================================================================
+   Adições para a Página Inicial (index.html)
+   ========================================================================== */
+
+.btn-chamada-hero {
+background-color: var(--cor-destaque1); 
+color: white; 
+padding: 10px 15px; 
+text-decoration: solid; 
+font-weight: bold; 
+border: 1px solid #000; 
+text-transform: uppercase;
+}
+
+/* ==========================================================================
    Adições para a Página Fale Conosco (contato.html)
    ========================================================================== */
 
